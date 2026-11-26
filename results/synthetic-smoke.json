@@ -1,0 +1,116 @@
+{
+  "kind": "synthetic_pcm_smoke",
+  "sample_rate": 8000,
+  "variants": {
+    "vision-only": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 2,
+      "answered": 8,
+      "consistent_trajectories": 3,
+      "answered_consistent": 3,
+      "answered_answerable": 7,
+      "correct_abstentions": 0,
+      "unanswerable": 1
+    },
+    "post-dub": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 2,
+      "answered": 8,
+      "consistent_trajectories": 2,
+      "answered_consistent": 2,
+      "answered_answerable": 7,
+      "correct_abstentions": 0,
+      "unanswerable": 1
+    },
+    "naive": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 2,
+      "answered": 8,
+      "consistent_trajectories": 0,
+      "answered_consistent": 0,
+      "answered_answerable": 7,
+      "correct_abstentions": 0,
+      "unanswerable": 1
+    },
+    "anchor": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 4,
+      "answered": 7,
+      "consistent_trajectories": 6,
+      "answered_consistent": 6,
+      "answered_answerable": 7,
+      "correct_abstentions": 1,
+      "unanswerable": 1
+    },
+    "dual": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 2,
+      "answered": 8,
+      "consistent_trajectories": 0,
+      "answered_consistent": 0,
+      "answered_answerable": 7,
+      "correct_abstentions": 0,
+      "unanswerable": 1
+    },
+    "judge": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 0,
+      "answered": 0,
+      "consistent_trajectories": 0,
+      "answered_consistent": 0,
+      "answered_answerable": 0,
+      "correct_abstentions": 1,
+      "unanswerable": 1
+    },
+    "anchor-dual": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 7,
+      "answered": 7,
+      "consistent_trajectories": 6,
+      "answered_consistent": 6,
+      "answered_answerable": 7,
+      "correct_abstentions": 1,
+      "unanswerable": 1
+    },
+    "anchor-judge": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 4,
+      "answered": 6,
+      "consistent_trajectories": 6,
+      "answered_consistent": 6,
+      "answered_answerable": 6,
+      "correct_abstentions": 1,
+      "unanswerable": 1
+    },
+    "dual-judge": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 0,
+      "answered": 0,
+      "consistent_trajectories": 0,
+      "answered_consistent": 0,
+      "answered_answerable": 0,
+      "correct_abstentions": 1,
+      "unanswerable": 1
+    },
+    "full": {
+      "cases": 8,
+      "answerable": 7,
+      "correct": 6,
+      "answered": 6,
+      "consistent_trajectories": 6,
+      "answered_consistent": 6,
+      "answered_answerable": 6,
+      "correct_abstentions": 1,
+      "unanswerable": 1
+    }
+  }
+}
